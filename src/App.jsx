@@ -5,18 +5,13 @@ function App() {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
+        <p>This is SolidJS! An alternative to the React and Alpine Framework!</p>
+        <p>This table displays my Favorite Drinks Name, Flavor, and Price!</p>
+        <table id='favoriteDrinks'>
+          
+        </table> <br/>
+
+        <script type="javascript" src="/src/favoriteimport.js"></script>
       </header>
     </div>
   );
